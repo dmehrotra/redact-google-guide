@@ -4,102 +4,155 @@
 	<meta name="description" 
       content="A Privacy guide to how to blu/hide your house on google maps.  Redact your image.">
       <meta name="author" content="Dhruv Mehrotra">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="./css/style.css">
-	  <title>How To Hide Your House from Google Maps</title>
+
+	<link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="./css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>How To Hide Your House from Google Maps_</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+
+	<script type="text/javascript" src="./js/fullpage.min.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#fullpage').fullpage({
+			anchors: ['firstPage', 'secondPage', '3rdPage'],
+			sectionsColor: ['#000', '#000', '#FFF', '#000',"#000","#000"],
+			css3: true
+		});
+		
+	});
+</script>
 </head>
 <body>
-	<div id="contentContainer">
 
-		<div id="wrapper">
-		    <div id="itemOne" class="content">
-		 
-		    </div>
-		    <div id="itemTwo" class="content">
-		 
-		    </div>
-		    <div id="itemThree" class="content">
-		 
-		    </div>
-		    <div id="itemFour" class="content">
-		 
-		    </div>
+
+	<div id="header"> <span class="small">></span>  HOW TO BLUR A LOCATION FROM GOOGLE MAPS <span class="blink">|</span> </div>
+
+	<div id="fullpage">
+		<div class="section " id="section0">
+			<div class="intro">
+				<div class='bg'>
+					<div class="centered">
+						<p>Google Maps is a publicly viewable satellite map. Searching around, you occasionally come accross <a href="./images/bg.png">blurred</a> or <a href="./images/bg2.png">redacted images</a>. Generally we assume that this type of redaction is a privlege for corporate or state actors. It is not, heres how you do it. </p>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section1">
+		    <div class="slide" id="slide1">
+				<div class="intro">
+					<h1>how to do it <span class="blink">|</span></h1>
+				</div>
+			</div>
+
+		    <div class="slide" id="slide2">
+				<div class="slide-container">
+					<div class="left">
+						<ul>
+						    <li> > go to <a href="https://www.google.com/maps/place/Google/@40.7805617,-74.0636533,12z/data=!4m8!1m2!2m1!1sgoogle!3m4!1s0x89c259bf14f1f51f:0xcc1b5ab35bd75df0!8m2!3d40.7417465!4d-74.0042227">google maps</a></li>
+						    <li> > enter a location </li>
+						</ul>
+					</div>
+					<div class="right">
+						<img src="./images/one.png" />
+					</div>
+				</div>
+			</div>
+		   	<div class="slide" id="slide3">
+				<div class="slide-container">
+					<h1>drop the peg man {<div class="icn-wrp"><img class='icn'src="./images/peg-man.png" alt=""> </div>} on the map in <a href="https://www.google.com/maps/@40.7419699,-74.0046593,3a,75y,116.87h,101.56t/data=!3m6!1e1!3m4!1sIVIoFckaofofqtO2HFHNoA!2e0!7i13312!8i6656!6m1!1e1">front of your location</a></h1>
+					<br>
+					<p class='small ish'> > images on next slide <span class="blink">|</span></p>
+				</div>
+			</div>
+			<div class="slide" id="slide4">
+				<div class="slide-container">
+					<img src="./images/step-two.gif" alt="">
+				</div>
+			</div>
+			<div class="slide" id="slide5">
+				<div class="slide-container">
+					<h1>on the very bottom of the screen in the right corner you can click a link to report a problem. The font size on the link is 10 px <a id="report" href="https://www.google.com/cbk?cb_client=maps_sv.tactile&output=report&panoid=IVIoFckaofofqtO2HFHNoA&hl=en&gl=us&cbp=1%2C120%2C%2C0%2C0">Report a problem</a>.  Fill out the report.
+					<br>
+					<p class='small ish'> > images on next slide <span class="blink">|</span></p>
+				</div>
+			</div>
+			<div class="slide" id="slide5">
+				<div class="slide-container">
+					<img src="./images/step-three.gif" alt="">
+				</div>
+			</div>
+			<div class="slide" id="slide6">
+				<div class="slide-container">
+					<div class="left">
+						<ul>
+						    <li> > fill out the report </li>
+						    <li> > be specific not ideological </li>
+						    <li> > scroll down for more</li>
+						    <li> >  <a href="./concrete-reasons.txt">example reasons</a> </li>
+						</ul>
+					</div>
+					<div class="right">
+						<img src="./images/form.png" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section2">
+			<div class="slide-container">
+				<p class='black'>Be <a href="./images/more-info.png">specific</a> when you fill out the report.  Google will not necessarily blur out a location for ideological reasons so think of a concrete reason <  <a href="./concrete-reasons.txt">examples</a> > that you need your location redacted.  The best results come from reasons concerning <a href="https://www.google.com/intl/en/policies/privacy/#infosharing">personal safety</a>, <a href="https://www.google.com/maps/streetview/understand/">security</a>, intellectual property, and <a href="https://en.wikipedia.org/wiki/Google_Street_View_privacy_concerns">personally identifying information</a>. within a day or two you will get a <a href="./images/victory.png">confirmation email</a></p>
+				<div class="img-bg-left">
+					<img src="./images/thanks.png" alt="">
+				</div>
+				<div class="img-bg-right">
+					<img src="./images/more-info.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="section" id="section3">
+			<div class="intro">
+				<div class='bg two'>
+
+				</div>
+			</div>
+				
+		</div>
+
+		<div class="section" id="section4">
+			<div class="intro ta-left">
+				<p>
+					<span class="small ish "> > </span> thanks
+				</p>
+				<p>
+					<span class="small ish "> > </span> dhruv.mehrotra3@gmail.com for questions  <span class="blink"> | </span>
+				</p>
+				
+				<p>
+					<span class="small ish "> > </span> <a href="http://dhruvmehrotra.info">dhruvmehrotra.info</a>
+				</p>
+				<p> 
+					<span class="small ish "> > </span> <a href="https://github.com/dmehrotra">github/dmehrotra</a> <span class="blink"> | </span>
+
+				</p>
+				<p> 
+					<span class="small ish "> > </span> <a href="https://twitter.com/dmehro">twitter.com/dmehro</a>
+				</p>
+			</div>
+				
 		</div>
 	</div>
-	<div id="navLinks">
-    <ul>
-        <li class="itemLinks" data-pos="0px"></li>
-        <li class="itemLinks" data-pos="-550px"></li>
-        <li class="itemLinks" data-pos="-1100px"></li>
-        <li class="itemLinks" data-pos="-1650px"></li>
-    </ul>
-</div>
+
 <script>
-// just querying the DOM...like a boss!
-var links = document.querySelectorAll(".itemLinks");
-var wrapper = document.querySelector("#wrapper");
- 
-// the activeLink provides a pointer to the currently displayed item
-var activeLink = 0;
- 
-// setup the event listeners
-for (var i = 0; i < links.length; i++) {
-    var link = links[i];
-    link.addEventListener('click', setClickedItem, false);
- 
-    // identify the item for the activeLink
-    link.itemID = i;
-}
- 
-// set first item as active
-links[activeLink].classList.add("active");
- 
-function setClickedItem(e) {
-    removeActiveLinks();
- 
-    var clickedLink = e.target;
-    activeLink = clickedLink.itemID;
- 
-    changePosition(clickedLink);
-}
- 
-function removeActiveLinks() {
-    for (var i = 0; i < links.length; i++) {
-        links[i].classList.remove("active");
-    }
-}
- 
-// Handle changing the slider position as well as ensure
-// the correct link is highlighted as being active
-function changePosition(link) {
-    var position = link.getAttribute("data-pos");
- 
-    var translateValue = "translate3d(" + position + ", 0px, 0)";
-    wrapper.style[transformProperty] = translateValue;
- 
-    link.classList.add("active");
-}
- 
-//
-// Dealing with Transforms
-//
-var transforms = ["transform",
-            "msTransform",
-            "webkitTransform",
-            "mozTransform",
-            "oTransform"];
- 
-var transformProperty = getSupportedPropertyName(transforms);
- 
-// vendor prefix management
-function getSupportedPropertyName(properties) {
-    for (var i = 0; i < properties.length; i++) {
-        if (typeof document.body.style[properties[i]] != "undefined") {
-            return properties[i];
-        }
-    }
-    return null;
-}
+$("#section3").css("background-image", "url(./images/victory.png)");  
+
+
 </script>
 </body>
 </html>
